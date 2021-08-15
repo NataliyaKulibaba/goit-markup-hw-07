@@ -1,0 +1,32 @@
+.page-footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.contacts-item {
+  width: 231px;
+}
+
+.contacts {
+  display: flex;
+  margin-top: 20px;
+
+  flex-direction: column;
+  font-style: normal;
+}
+
+.container-contacts {
+  display: flex;
+}
+.contacts__address {
+  color: $color;
+}
+.contacts__link {
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}

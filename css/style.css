@@ -135,10 +135,6 @@ ul {
   transform: scale(1);
 }
 
-.auth-nav__item + .auth-nav__item {
-  margin-left: 50px;
-}
-
 .auth-nav {
   display: flex;
   margin-left: auto;
@@ -167,6 +163,9 @@ ul {
 .auth-nav__item {
   display: flex;
   align-items: center;
+}
+.auth-nav__item + .auth-nav__item {
+  margin-left: 50px;
 }
 
 .auth-nav__icon {
@@ -686,8 +685,7 @@ ul {
   display: flex;
 }
 
-.contacts__address,
-.page-footer__logoStudio {
+.contacts__address {
   color: var(--primary-white-color);
 }
 
