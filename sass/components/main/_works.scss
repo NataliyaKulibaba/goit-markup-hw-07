@@ -1,7 +1,7 @@
-.works-list {
+.works {
   display: flex;
 }
-.works-list__item {
+.works__item {
   position: relative;
   margin-right: 30px;
   overflow: hidden;
@@ -10,7 +10,7 @@
     margin-right: 0px;
   }
 }
-.works-list__description {
+.works__description {
   font-weight: 700;
   line-height: 1.14;
   text-align: center;
@@ -21,7 +21,7 @@
   color: $color;
 }
 
-.works-list__overlay {
+.works__overlay {
   position: absolute;
   bottom: 0;
   left: 0;

@@ -1,13 +1,13 @@
-.clients-list {
+.clients {
   display: flex;
   justify-content: space-between;
-
-  &:not(:last-child) {
-    margin-right: 30px;
-  }
 }
-.clients-list__link {
+.clients__item:not(:last-child) {
+  margin-right: 30px;
+}
+.clients__link {
   padding: 16px 32px;
+  width: 170px;
   color: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 3px;
@@ -23,9 +23,8 @@
     transform: scale(1.1);
   }
 }
-.clients-list__icon {
+.clients__icon {
   width: 106px;
   height: 60px;
   fill: currentColor;
-  justify-content: center;
 }

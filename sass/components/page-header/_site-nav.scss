@@ -21,6 +21,9 @@
   &:focus {
     color: $accent-color;
   }
+  &.current {
+    color: #2196f3;
+  }
 
   &::after {
     position: absolute;
